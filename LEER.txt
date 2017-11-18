@@ -1,0 +1,8 @@
+Sólo he hecho el pila_max_vd y el pila_max_lista
+
+En makefile, para ejecutar el VD hace falta comentar esta línea:
+
+#$(BIN)/usopilas_max: $(OBJ)/usopilas_max.o $(OBJ)/pila_max_lista.o
+#	$(CXX) -o $(BIN)/usopilas_max $(OBJ)/usopilas_max.o $(OBJ)/pila_max_lista.o
+
+ó la que hay encima, para ejecutar la Lista, porque no sabía como ponerlo de otra manera
